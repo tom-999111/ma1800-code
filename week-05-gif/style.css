@@ -74,7 +74,21 @@ margin: 20px;
 
 background: linear-gradient(to right, lightblue, pink);
 
+}
 
+.position-area {
 
+position: relative;
+height: 300px;
+border: 2px dotted black;
+
+}
+
+.position-box {
+
+width: 100px;
+padding: 20px;
+margin: 10px;
+background: yellow;
 
 }
