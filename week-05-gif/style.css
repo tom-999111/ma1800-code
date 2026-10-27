@@ -92,3 +92,20 @@ margin: 10px;
 background: yellow;
 
 }
+
+.relative {
+
+position: relative;
+left: 100px;
+
+}
+
+.absolute {
+
+
+position: absolute;
+right: 20px;
+top: 20px;
+background: red;
+
+}
