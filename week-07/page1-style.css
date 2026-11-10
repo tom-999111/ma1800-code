@@ -1,0 +1,16 @@
+.text-animation,
+.ascii-animation {
+
+    font-family: monospace;
+animation: spacing 4s infinite alternate ease-in-out;
+font-size: 100px;
+
+}
+
+@keyframes spacing {
+
+0% {letter-spacing: 0px; line-height: 1;}
+100% {letter-spacing: 150px; line-height: 30;}
+
+}
+

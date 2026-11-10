@@ -1,0 +1,57 @@
+
+
+body {
+
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-family: sans-serif;
+
+}
+
+#container {
+
+width: 300px;
+height: 300px;
+border: dashed 3px black;
+
+}
+
+@keyframes move {
+
+0% {top: 0%; left: 0%;}
+25% {top: 100%; left: 100%;}
+50% {top: 0%; left: 100%;}
+100% {top: 100%; left: 0%;}
+
+}
+
+
+p {
+
+font-size: 4rem;
+margin:0;
+padding: 0;
+
+}
+
+.moving {
+
+position: relative;
+color: red;
+text-align: left;
+border: dashed 3px red;
+
+animation: move 10s ease infinite alternate-reverse;
+
+
+}
+
+h1 {
+
+font-size: 70px;
+color: maroon;
+border: color-mix(in hsl longer hue, color percentage, color percentage);
+letter-spacing: 200px;
+
+}
