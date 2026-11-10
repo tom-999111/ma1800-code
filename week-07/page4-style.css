@@ -1,0 +1,35 @@
+h1 {
+
+font-size: 4rem;
+margin: 25px;
+color: white;
+
+animation: flash 2s normal 10;
+
+}
+
+@keyframes flash {
+
+0% {color: white ;}
+50% {color: black ;}
+100% {color: white ;}
+
+}
+
+.message1 {
+
+animation-delay: 0s;
+
+}
+
+.message2 {
+
+animation-delay: 2s;
+
+}
+
+.message3 {
+
+animation-delay: 4s;
+
+}
