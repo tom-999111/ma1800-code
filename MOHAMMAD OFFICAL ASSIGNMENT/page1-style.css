@@ -1,0 +1,31 @@
+
+h1, p {
+    text-align: center;
+}
+
+h1, p {
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.h1 { font-size: 999px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    position:unset
+}
+
+body { font-family: sans-serif; }
+.title { font-size: 2rem; }
+#lead { color: #444; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.h1 {
+  text-align: center;
+}
+
+li {
+
+text-align: right;
+
+}

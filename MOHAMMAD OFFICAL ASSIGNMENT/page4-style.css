@@ -1,0 +1,6 @@
+body { margin: 16px; font-family: Arial, sans-serif; }
+.main-panel { display: flex; gap: 8px; }
+.content-block { padding: 16px; color: #000; }
+.green { background: #c8f7c5; flex: 1; }
+.yellow { background: #fff3b0; flex: 1; }
+.red { background: #ffb3b3; flex: 2; }
