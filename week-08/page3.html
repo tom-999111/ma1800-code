@@ -1,0 +1,52 @@
+<html>
+    <head>
+        
+
+        <style>
+
+#circle {
+
+width: 250px;
+height: 250px;
+background-color: #F3c;
+outline-width: thick;
+position: fixed;
+top: 100px;
+left: 50px;
+
+opacity: 0.8;
+border-radius: 30%;
+border-bottom-right-radius: 90%;
+border-bottom-left-radius: 90%;
+
+
+}
+
+.circle {
+
+animation: spin 3s infinite ease-in-out; 
+animation-delay: 2s;
+
+}
+
+@keyframes spin {
+
+from {transform: rotate(0deg);}
+to {transform: rotate(360deg)}
+
+}
+
+</style>
+        </head>
+
+        <body>
+
+            <a href="index.html">
+
+<div id="circle" class="circle"></div>
+
+</a>
+
+        </body>
+    
+</html>
