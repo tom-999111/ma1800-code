@@ -8,10 +8,10 @@ h1, p {
     border: 1px solid blue;
 }
 
-.h1 { font-size: 999px;
+.heading { font-size: 40px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: red;
-    position:unset
+    text-align: center;
 }
 
 body { font-family: sans-serif; }
@@ -20,12 +20,17 @@ body { font-family: sans-serif; }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.h1 {
-  text-align: center;
+.heading:hover {
+  font-size: 80px;
+
 }
 
 li {
 
 text-align: right;
 
+}
+
+a {
+    color:red;
 }
